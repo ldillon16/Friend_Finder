@@ -1,23 +1,35 @@
+
+
 {
   "name": "friend_finder",
   "version": "1.0.0",
-  "description": "",
+  "description": "An Node.js and Express based friend matching application.",
   "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "6.9.5"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ldillon16/friend_finder.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "friend_finder",
+
+  ],
+  "author": "Lindsay Dillon",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ldillon16/friend_finder/issues"
   },
-  "homepage": "https://github.com/ldillon16/friend_finder#readme",
-  "dependencies": {
-    "express": "^4.16.2",
-  }
+  "homepage": "https://github.com/ldillon16/friend_finder#readme"
 }
