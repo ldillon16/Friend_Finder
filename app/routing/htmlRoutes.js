@@ -5,7 +5,7 @@ var path = require("path");
 module.exports = function(app) {
 	// var router = express.Router();
 
-
+// survey url
 app.get("/survey", function(req, res) {
   console.log("survey route");
   res.sendFile(path.join(__dirname, "../public/survey.html"));
