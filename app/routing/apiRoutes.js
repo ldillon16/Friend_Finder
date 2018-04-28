@@ -10,8 +10,8 @@ app.get("/api/friends", function(req, res) {
 });
 
 app.post("/api/friends", function(req, res) {
-    console.log(friendsList)
-    console.log("BODY" + req.body.scores)
+    // console.log(friendsList)
+    // console.log("BODY" + req.body.scores)
   
     var userScores = req.body.scores;
     var scoresArr = [];
